@@ -51,6 +51,15 @@ namespace QuitandaFeliz.WebForms.UserControl
         protected global::System.Web.UI.WebControls.TextBox txtCPF;
 
         /// <summary>
+        /// MaskCPF control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.MaskedEditExtender MaskCPF;
+
+        /// <summary>
         /// lblNome control.
         /// </summary>
         /// <remarks>
@@ -105,6 +114,15 @@ namespace QuitandaFeliz.WebForms.UserControl
         protected global::System.Web.UI.WebControls.TextBox txtDataNascimento;
 
         /// <summary>
+        /// calendarDataNascimento control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.CalendarExtender calendarDataNascimento;
+
+        /// <summary>
         /// lblTelefone control.
         /// </summary>
         /// <remarks>
@@ -121,6 +139,15 @@ namespace QuitandaFeliz.WebForms.UserControl
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTelefone;
+
+        /// <summary>
+        /// MaskTelefone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.MaskedEditExtender MaskTelefone;
 
         /// <summary>
         /// lblSenha control.
