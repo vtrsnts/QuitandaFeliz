@@ -1,5 +1,5 @@
 # QuitandaFeliz
-Projeto no estilo Fabrikan , Contoso,  Globalmantics para demonstração de soluções .net 
+Projeto no estilo Fabrikan , Contoso,  Globalmantics para demonstração de soluções .net e capacitação do time de desenvolvimento.
 ### Sobre
 QuitandaFeliz é uma empresa que está no mercado a mais de 10 anos, atua na área de hortifrúti, identifica que precisa investir na área de tecnologia para atingir novos horizontes. Todo processo existente na empresa é mantido por formulários, contratos, arquivos de forma física.
 ### Objetivo
