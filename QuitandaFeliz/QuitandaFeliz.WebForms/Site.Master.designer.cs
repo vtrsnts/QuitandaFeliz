@@ -24,15 +24,6 @@ namespace QuitandaFeliz.WebForms
         protected global::QuitandaFeliz.WebForms.UserControl.Menu Menu;
 
         /// <summary>
-        /// MainContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
-
-        /// <summary>
         /// ModalCadastroUsuario control.
         /// </summary>
         /// <remarks>
@@ -49,5 +40,14 @@ namespace QuitandaFeliz.WebForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::QuitandaFeliz.WebForms.UserControl.ModalLogin ModalLogin;
+
+        /// <summary>
+        /// MainContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }

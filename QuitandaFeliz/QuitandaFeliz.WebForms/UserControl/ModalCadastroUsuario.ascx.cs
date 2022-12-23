@@ -41,9 +41,9 @@ namespace QuitandaFeliz.WebForms.UserControl
             {
                 args.IsValid = false;
                 erro = $@"e-mail inválido[{args.Value}]";
-
-            }          
-            ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "ModalCadastroUsuarioScriptManager", $@"modalErroCadastroUsuario('{erro}');", true);
+            }
+            Page.ModelState.AddModelError(string.Empty, erro);
+            ModalPopupCadastroUsuario.Show();
         }
     }
 }

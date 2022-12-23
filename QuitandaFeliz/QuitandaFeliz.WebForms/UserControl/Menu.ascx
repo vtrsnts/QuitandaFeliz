@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Menu.ascx.cs" Inherits="QuitandaFeliz.WebForms.UserControl.Menu" %>
-
+<%@ Register Src="~/UserControl/ModalCadastroUsuario.ascx" TagName="CadastroUsuario" TagPrefix="Modal" %>
 <div class="navbar navbar-inverse navbar-fixed-top navbar-quitanda">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -19,10 +19,8 @@
                 <li><a runat="server" href="~/Contact">Contato</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right navbar-right-quitanda">
-                <li><span>Bem vindo!  <a href="#" data-toggle="modal" data-target="#modalLogin">entre com sua conta</a>  ou <a href="#" data-toggle="modal" data-target="#modalNovoUsuario">crie sua conta</a></span></li>
+                <li><span>Bem vindo!  <a href="#" data-toggle="modal" data-target="#modalLogin">entre com sua conta</a>  ou <a href="#" onclick="abrirModalCadastro();">crie sua conta</a></span></li>
             </ul>
         </div>
     </div>
 </div>
-
-

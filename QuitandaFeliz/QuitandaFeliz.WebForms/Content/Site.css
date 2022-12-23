@@ -17,8 +17,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
 .erro-Quitanda {
-    color:red;
+    color: red;
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -73,8 +74,22 @@ textarea {
     width: 100%;
     height: 34px;
     padding: 7px 11px;
-
 }
+
+.modal-title {
+    float: left;
+}
+.modal-quitanda {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    outline: 0;
+}
+
 
 footer {
     position: fixed;

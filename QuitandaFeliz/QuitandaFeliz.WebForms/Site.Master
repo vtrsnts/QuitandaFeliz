@@ -35,17 +35,17 @@
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
-               
             </Scripts>
         </asp:ScriptManager>
         <ctrl:Menu ID="Menu" runat="server" />
         <div class="container body-content">
+            <ctrl:ModalCadastroUsuario ID="ModalCadastroUsuario" runat="server" />
+            <ctrl:ModalLogin ID="ModalLogin" runat="server" />
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <ctrl:ModalCadastroUsuario ID="ModalCadastroUsuario" runat="server" />
-            <ctrl:ModalLogin ID="ModalLogin" runat="server" />
         </div>
+        <div id="overlay-quitanda"></div>
     </form>
     <footer>
         <center>
@@ -56,6 +56,6 @@
                 </a>
             </p>
         </center>
-    </footer>    
+    </footer>
 </body>
 </html>

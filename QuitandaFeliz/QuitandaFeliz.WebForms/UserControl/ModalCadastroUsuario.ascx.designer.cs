@@ -15,6 +15,33 @@ namespace QuitandaFeliz.WebForms.UserControl
     {
 
         /// <summary>
+        /// btnModalNovoUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnModalNovoUsuario;
+
+        /// <summary>
+        /// ModalPopupCadastroUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupCadastroUsuario;
+
+        /// <summary>
+        /// PanelNovoUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PanelNovoUsuario;
+
+        /// <summary>
         /// ValidationSummaryCadastroUsuario control.
         /// </summary>
         /// <remarks>
@@ -220,6 +247,15 @@ namespace QuitandaFeliz.WebForms.UserControl
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkAceite;
+
+        /// <summary>
+        /// btnFecharCadastrarUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnFecharCadastrarUsuario;
 
         /// <summary>
         /// btnCadastrarUsuario control.
